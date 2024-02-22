@@ -1,0 +1,24 @@
+.headerb {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 0px 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-navigation h4 {
+  margin-right: 20px;
+}
+
+.header-navigation h4:last-child {
+  margin-right: 0;
+}

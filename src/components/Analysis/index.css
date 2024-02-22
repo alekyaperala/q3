@@ -1,0 +1,36 @@
+.analysis-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.analysis-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-container {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}

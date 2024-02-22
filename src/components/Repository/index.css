@@ -1,0 +1,65 @@
+/* index.css */
+
+/* Repository heading */
+h2 {
+  font-weight: bold;
+  color: black;
+}
+
+/* Container for each repository */
+.repository-container {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Repository details */
+.repository-details {
+  margin: 5px;
+  padding: 10px;
+  margin-left: 20px;
+  background-color: darkslategrey;
+  text-align: start;
+}
+
+.repository-details div {
+  margin-bottom: 5px;
+}
+
+/* Different background colors for each language */
+.languages {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.languages.Javascript {
+  background-color: #f0db4f; /* Yellow for JavaScript */
+}
+
+.languages.HTML {
+  background-color: #f16529; /* Orange for HTML */
+}
+
+.languages.CSS {
+  background-color: #2965f1; /* Blue for CSS */
+}
+
+.languages.Other {
+  background-color: #6e5494; /* Purple for other languages */
+}
+.repoName {
+  color: blue;
+  font-weight: 900;
+}
+.description {
+  color: beige;
+  font-weight: 300;
+}
+.starfork {
+  display: flex;
+  flex-direction: row;
+}
+.padding {
+  margin-right: 10px;
+}
